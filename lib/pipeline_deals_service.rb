@@ -15,9 +15,7 @@ class PipelineDealsService
       response = JSON.parse(response.body)
       deals.concat(response['entries'])
       total = response['pagination']['total']
-      puts "deals length #{deals.length}"
-      puts "total #{total}"
-      puts "page #{params[:page]}"
+
       params[:page] += 1
     end
     deals

@@ -32,7 +32,7 @@ class Deal
     @stage = deal_data["deal_stage"]["name"]
     @percent = deal_data["deal_stage"]["percent"]
     @value = deal_data["value"].to_f
-    @currency_code = deal_data["currency"]["code"] # unused, but necessary for hypothetical currency conversion
+    @currency_code = deal_data["currency"]["code"] # unused, but would be necessary for currency conversion if all the test data wasn't USD
   end
 
   private
