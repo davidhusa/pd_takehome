@@ -19,7 +19,7 @@ class Deal
     end
 
     def total_value_by_deal_stage
-      all.group_by(&:stage).map do |stage, deals|
+      all.sort_by(&:percent).group_by(&:stage).map do |stage, deals|
         [ 
           stage,
           deals.reduce(0.0) { |sum, deal| sum + deal.value }
