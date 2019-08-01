@@ -1,13 +1,9 @@
 class Deal
   attr_accessor :stage, :percent, :value, :currency_code
-  STAGE_TO_PERCENT = {
-    'Won' => 100,
-    'Presentation' => 50,
-    'Negotiation' => 75,
-    'Request for Info' => 25,
-    'Qualified' => 10,
-    'Lost' => 0,
+  STAGE_TO_KEY = {
+    'Request for Info' => 'requestForInfo'
   }
+
   class << self
     def all
       deals = pipeline_deals_service.get_deals
@@ -21,7 +17,7 @@ class Deal
     def total_value_by_deal_stage
       all.sort_by(&:percent).group_by(&:stage).map do |stage, deals|
         [ 
-          stage,
+          STAGE_TO_KEY[stage] || stage.downcase,
           deals.reduce(0.0) { |sum, deal| sum + deal.value }
         ]
       end.to_h
