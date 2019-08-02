@@ -4,7 +4,7 @@ import Bar from '../components/Bar';
 class Chart extends React.Component {
   constructor (props) {
     super(props);
-    this.state = {serviceData: {}, dataLoaded = false}
+    this.state = {serviceData: {}, dataLoaded: false}
   }
   componentDidMount () {
     fetch('/v1/deals.json')
@@ -15,7 +15,7 @@ class Chart extends React.Component {
           this.setState({
             serviceData: serviceData,
             maxValue: maxValue,
-            dataLoaded = true
+            dataLoaded: true
           });
         },
         (error) => {
@@ -25,31 +25,30 @@ class Chart extends React.Component {
   }
 
   render () {
-    const maxValue = 200.0;
     return (
       <div className="chart">
         <Bar stage="Lost" 
-             aggregateValue={this.state.serviceData.lost}
+             aggregateValue={this.state.serviceData.lost || 0.0}
              maxValue={this.state.maxValue}
         />
         <Bar stage="Qualified"
-             aggregateValue={this.state.serviceData.qualified}
+             aggregateValue={this.state.serviceData.qualified || 0.0}
              maxValue={this.state.maxValue}
         />
         <Bar stage="Request for Info"
-             aggregateValue={this.state.serviceData.requestForInfo}
+             aggregateValue={this.state.serviceData.requestForInfo || 0.0}
              maxValue={this.state.maxValue}
         />
         <Bar stage="Negotiation"
-             aggregateValue={this.state.serviceData.negotiation}
+             aggregateValue={this.state.serviceData.negotiation || 0.0}
              maxValue={this.state.maxValue}
         />
         <Bar stage="Presentation"
-             aggregateValue={this.state.serviceData.presentation}
+             aggregateValue={this.state.serviceData.presentation || 0.0}
              maxValue={this.state.maxValue}
         />
         <Bar stage="Won"
-             aggregateValue={this.state.serviceData.won}
+             aggregateValue={this.state.serviceData.won || 0.0}
              maxValue={this.state.maxValue}
         />
       </div>
