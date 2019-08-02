@@ -28,27 +28,27 @@ class Chart extends React.Component {
     return (
       <div className="chart">
         <Bar stage="Lost" 
-             aggregateValue={this.state.serviceData.lost || 0.0}
+             aggregateValue={this.state.serviceData.lost}
              maxValue={this.state.maxValue}
         />
         <Bar stage="Qualified"
-             aggregateValue={this.state.serviceData.qualified || 0.0}
+             aggregateValue={this.state.serviceData.qualified}
              maxValue={this.state.maxValue}
         />
         <Bar stage="Request for Info"
-             aggregateValue={this.state.serviceData.requestForInfo || 0.0}
+             aggregateValue={this.state.serviceData.requestForInfo}
              maxValue={this.state.maxValue}
         />
         <Bar stage="Negotiation"
-             aggregateValue={this.state.serviceData.negotiation || 0.0}
+             aggregateValue={this.state.serviceData.negotiation}
              maxValue={this.state.maxValue}
         />
         <Bar stage="Presentation"
-             aggregateValue={this.state.serviceData.presentation || 0.0}
+             aggregateValue={this.state.serviceData.presentation}
              maxValue={this.state.maxValue}
         />
         <Bar stage="Won"
-             aggregateValue={this.state.serviceData.won || 0.0}
+             aggregateValue={this.state.serviceData.won}
              maxValue={this.state.maxValue}
         />
       </div>
@@ -57,12 +57,3 @@ class Chart extends React.Component {
 }
 
 export default Chart
-
-  // STAGE_TO_PERCENT = {
-  //   'Won' => 100,
-  //   'Presentation' => 50,
-  //   'Negotiation' => 75,
-  //   'Request for Info' => 25,
-  //   'Qualified' => 10,
-  //   'Lost' => 0,
-  // }
