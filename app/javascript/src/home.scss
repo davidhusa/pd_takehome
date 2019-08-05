@@ -1,11 +1,111 @@
-.chart {
-  background-color: red;
-  height: 800px;
-  max-width: 600px;
-  display: table;
-  table-layout: fixed;
-  margin: 0 auto;
+// Boilerplate resets
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+// Chart CSS
+
+.chart {
+  height: 800px;
+  display: grid;
+  align-items: end;
+  justify-content: left;
+  margin-top: 16px;
+}
+
 .column {
+  width: 100px;
   margin-right: 10px;
+  justify-content: center;
+}
+
+.aggregate-value {
+  position: relative;
+  bottom: 16px;
+}
+
+.lost {
+  grid-column: 1;
+  .bar {
+    background-color: red;
+  }
+}
+
+.qualified {
+  grid-column: 2;
+  .bar {
+    background-color: yellow;
+  }
+}
+
+.request-for-info {
+  grid-column: 3;
+  .bar {
+    background-color: orange;
+  }
+}
+
+.negotiation {
+  grid-column: 4;
+  .bar {
+    background-color: purple;
+  }
+}
+
+.presentation {
+  grid-column: 5;
+  .bar {
+    background-color: blue;
+  }
+}
+
+.won {
+  grid-column: 6;
+  .bar {
+    background-color: green;
+  }
+}
+
+.stage {
+  height: 40px;
 }

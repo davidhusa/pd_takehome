@@ -36,6 +36,7 @@ class Chart extends React.Component {
              maxValue={this.state.maxValue}
         />
         <Bar stage="Request for Info"
+             substituteClassName="request-for-info"
              aggregateValue={this.state.serviceData.requestForInfo}
              maxValue={this.state.maxValue}
         />
