@@ -1,0 +1,703 @@
+pagination:
+  total: 100
+entries:
+  - deal_stage:
+      id: 727384
+      percent: 50
+      name: Presentation
+    currency:
+      code: USD
+    value: '44049.04'
+  - deal_stage:
+      id: 727384
+      percent: 50
+      name: Presentation
+    currency:
+      code: USD
+    value: '33908.89'
+  - deal_stage:
+      id: 727387
+      percent: 75
+      name: Negotiation
+    currency:
+      code: USD
+    value: '76300.9'
+  - deal_stage:
+      id: 727387
+      percent: 75
+      name: Negotiation
+    currency:
+      code: USD
+    value: '6276.93'
+  - deal_stage:
+      id: 727381
+      percent: 25
+      name: Request for Info
+    currency:
+      code: USD
+    value: '78181.64'
+  - deal_stage:
+      id: 727390
+      percent: 100
+      name: Won
+    currency:
+      code: USD
+    value: '59096.93'
+  - deal_stage:
+      id: 727384
+      percent: 50
+      name: Presentation
+    currency:
+      code: USD
+    value: '82788.88'
+  - deal_stage:
+      id: 727381
+      percent: 25
+      name: Request for Info
+    currency:
+      code: USD
+    value: '69569.43'
+  - deal_stage:
+      id: 727387
+      percent: 75
+      name: Negotiation
+    currency:
+      code: USD
+    value: '52238.89'
+  - deal_stage:
+      id: 727375
+      percent: 0
+      name: Lost
+    currency:
+      code: USD
+    value: '97355.87'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '23857.75'
+  - deal_stage:
+      id: 727384
+      percent: 50
+      name: Presentation
+    currency:
+      code: USD
+    value: '18666.88'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '98172.9'
+  - deal_stage:
+      id: 727381
+      percent: 25
+      name: Request for Info
+    currency:
+      code: USD
+    value: '29523.06'
+  - deal_stage:
+      id: 727375
+      percent: 0
+      name: Lost
+    currency:
+      code: USD
+    value: '50109.57'
+  - deal_stage:
+      id: 727390
+      percent: 100
+      name: Won
+    currency:
+      code: USD
+    value: '41511.22'
+  - deal_stage:
+      id: 727375
+      percent: 0
+      name: Lost
+    currency:
+      code: USD
+    value: '59498.82'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '52417.53'
+  - deal_stage:
+      id: 727384
+      percent: 50
+      name: Presentation
+    currency:
+      code: USD
+    value: '48530.39'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '80337.98'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '83719.98'
+  - deal_stage:
+      id: 727375
+      percent: 0
+      name: Lost
+    currency:
+      code: USD
+    value: '73679.94'
+  - deal_stage:
+      id: 727384
+      percent: 50
+      name: Presentation
+    currency:
+      code: USD
+    value: '42063.48'
+  - deal_stage:
+      id: 727384
+      percent: 50
+      name: Presentation
+    currency:
+      code: USD
+    value: '50548.6'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '3138.9'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '21885.03'
+  - deal_stage:
+      id: 727375
+      percent: 0
+      name: Lost
+    currency:
+      code: USD
+    value: '70383.7'
+  - deal_stage:
+      id: 727387
+      percent: 75
+      name: Negotiation
+    currency:
+      code: USD
+    value: '67780.26'
+  - deal_stage:
+      id: 727387
+      percent: 75
+      name: Negotiation
+    currency:
+      code: USD
+    value: '62249.54'
+  - deal_stage:
+      id: 727384
+      percent: 50
+      name: Presentation
+    currency:
+      code: USD
+    value: '74894.8'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '10776.48'
+  - deal_stage:
+      id: 727375
+      percent: 0
+      name: Lost
+    currency:
+      code: USD
+    value: '81965.98'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '80627.46'
+  - deal_stage:
+      id: 727381
+      percent: 25
+      name: Request for Info
+    currency:
+      code: USD
+    value: '84187.71'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '17312.96'
+  - deal_stage:
+      id: 727384
+      percent: 50
+      name: Presentation
+    currency:
+      code: USD
+    value: '93047.13'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '35954.5'
+  - deal_stage:
+      id: 727381
+      percent: 25
+      name: Request for Info
+    currency:
+      code: USD
+    value: '6189.06'
+  - deal_stage:
+      id: 727390
+      percent: 100
+      name: Won
+    currency:
+      code: USD
+    value: '6973.96'
+  - deal_stage:
+      id: 727387
+      percent: 75
+      name: Negotiation
+    currency:
+      code: USD
+    value: '98087.12'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '82592.82'
+  - deal_stage:
+      id: 727384
+      percent: 50
+      name: Presentation
+    currency:
+      code: USD
+    value: '37075.36'
+  - deal_stage:
+      id: 727375
+      percent: 0
+      name: Lost
+    currency:
+      code: USD
+    value: '52838.67'
+  - deal_stage:
+      id: 727390
+      percent: 100
+      name: Won
+    currency:
+      code: USD
+    value: '31089.74'
+  - deal_stage:
+      id: 727381
+      percent: 25
+      name: Request for Info
+    currency:
+      code: USD
+    value: '57407.82'
+  - deal_stage:
+      id: 727375
+      percent: 0
+      name: Lost
+    currency:
+      code: USD
+    value: '92853.1'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '45451.45'
+  - deal_stage:
+      id: 727387
+      percent: 75
+      name: Negotiation
+    currency:
+      code: USD
+    value: '46938.48'
+  - deal_stage:
+      id: 727381
+      percent: 25
+      name: Request for Info
+    currency:
+      code: USD
+    value: '99976.33'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '11948.73'
+  - deal_stage:
+      id: 727375
+      percent: 0
+      name: Lost
+    currency:
+      code: USD
+    value: '71009.8'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '9490.03'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '3216.49'
+  - deal_stage:
+      id: 727375
+      percent: 0
+      name: Lost
+    currency:
+      code: USD
+    value: '5400.1'
+  - deal_stage:
+      id: 727381
+      percent: 25
+      name: Request for Info
+    currency:
+      code: USD
+    value: '60738.04'
+  - deal_stage:
+      id: 727390
+      percent: 100
+      name: Won
+    currency:
+      code: USD
+    value: '65318.76'
+  - deal_stage:
+      id: 727390
+      percent: 100
+      name: Won
+    currency:
+      code: USD
+    value: '3915.29'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '74378.95'
+  - deal_stage:
+      id: 727381
+      percent: 25
+      name: Request for Info
+    currency:
+      code: USD
+    value: '81070.49'
+  - deal_stage:
+      id: 727381
+      percent: 25
+      name: Request for Info
+    currency:
+      code: USD
+    value: '19413.57'
+  - deal_stage:
+      id: 727384
+      percent: 50
+      name: Presentation
+    currency:
+      code: USD
+    value: '53174.1'
+  - deal_stage:
+      id: 727381
+      percent: 25
+      name: Request for Info
+    currency:
+      code: USD
+    value: '93442.72'
+  - deal_stage:
+      id: 727384
+      percent: 50
+      name: Presentation
+    currency:
+      code: USD
+    value: '39574.5'
+  - deal_stage:
+      id: 727381
+      percent: 25
+      name: Request for Info
+    currency:
+      code: USD
+    value: '62120.07'
+  - deal_stage:
+      id: 727375
+      percent: 0
+      name: Lost
+    currency:
+      code: USD
+    value: '17945.45'
+  - deal_stage:
+      id: 727390
+      percent: 100
+      name: Won
+    currency:
+      code: USD
+    value: '55021.48'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '35789.59'
+  - deal_stage:
+      id: 727390
+      percent: 100
+      name: Won
+    currency:
+      code: USD
+    value: '32314.68'
+  - deal_stage:
+      id: 727381
+      percent: 25
+      name: Request for Info
+    currency:
+      code: USD
+    value: '22316.11'
+  - deal_stage:
+      id: 727381
+      percent: 25
+      name: Request for Info
+    currency:
+      code: USD
+    value: '98725.28'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '78654.17'
+  - deal_stage:
+      id: 727390
+      percent: 100
+      name: Won
+    currency:
+      code: USD
+    value: '66321.98'
+  - deal_stage:
+      id: 727390
+      percent: 100
+      name: Won
+    currency:
+      code: USD
+    value: '12193.3'
+  - deal_stage:
+      id: 727381
+      percent: 25
+      name: Request for Info
+    currency:
+      code: USD
+    value: '54760.66'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '90013.51'
+  - deal_stage:
+      id: 727384
+      percent: 50
+      name: Presentation
+    currency:
+      code: USD
+    value: '93144.4'
+  - deal_stage:
+      id: 727387
+      percent: 75
+      name: Negotiation
+    currency:
+      code: USD
+    value: '91306.56'
+  - deal_stage:
+      id: 727384
+      percent: 50
+      name: Presentation
+    currency:
+      code: USD
+    value: '68568.58'
+  - deal_stage:
+      id: 727390
+      percent: 100
+      name: Won
+    currency:
+      code: USD
+    value: '83092.92'
+  - deal_stage:
+      id: 727375
+      percent: 0
+      name: Lost
+    currency:
+      code: USD
+    value: '20307.61'
+  - deal_stage:
+      id: 727390
+      percent: 100
+      name: Won
+    currency:
+      code: USD
+    value: '85112.78'
+  - deal_stage:
+      id: 727384
+      percent: 50
+      name: Presentation
+    currency:
+      code: USD
+    value: '75175.4'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '47005.4'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '37375.58'
+  - deal_stage:
+      id: 727381
+      percent: 25
+      name: Request for Info
+    currency:
+      code: USD
+    value: '31111.64'
+  - deal_stage:
+      id: 727375
+      percent: 0
+      name: Lost
+    currency:
+      code: USD
+    value: '28070.38'
+  - deal_stage:
+      id: 727381
+      percent: 25
+      name: Request for Info
+    currency:
+      code: USD
+    value: '75473.12'
+  - deal_stage:
+      id: 727387
+      percent: 75
+      name: Negotiation
+    currency:
+      code: USD
+    value: '94564.21'
+  - deal_stage:
+      id: 727375
+      percent: 0
+      name: Lost
+    currency:
+      code: USD
+    value: '48483.68'
+  - deal_stage:
+      id: 727384
+      percent: 50
+      name: Presentation
+    currency:
+      code: USD
+    value: '19648.89'
+  - deal_stage:
+      id: 727375
+      percent: 0
+      name: Lost
+    currency:
+      code: USD
+    value: '654.91'
+  - deal_stage:
+      id: 727390
+      percent: 100
+      name: Won
+    currency:
+      code: USD
+    value: '85910.5'
+  - deal_stage:
+      id: 727381
+      percent: 25
+      name: Request for Info
+    currency:
+      code: USD
+    value: '88983.62'
+  - deal_stage:
+      id: 727390
+      percent: 100
+      name: Won
+    currency:
+      code: USD
+    value: '11625.85'
+  - deal_stage:
+      id: 727381
+      percent: 25
+      name: Request for Info
+    currency:
+      code: USD
+    value: '74628.09'
+  - deal_stage:
+      id: 727387
+      percent: 75
+      name: Negotiation
+    currency:
+      code: USD
+    value: '2500.07'
+  - deal_stage:
+      id: 727375
+      percent: 0
+      name: Lost
+    currency:
+      code: USD
+    value: '28878.5'
+  - deal_stage:
+      id: 727387
+      percent: 75
+      name: Negotiation
+    currency:
+      code: USD
+    value: '40850.45'
+  - deal_stage:
+      id: 727390
+      percent: 100
+      name: Won
+    currency:
+      code: USD
+    value: '7573.17'
+  - deal_stage:
+      id: 727378
+      percent: 10
+      name: Qualified
+    currency:
+      code: USD
+    value: '49075.33'
